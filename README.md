@@ -6,7 +6,7 @@ This package provides Naver OAuth 2.0 support for the PHP League's OAuth 2.0 Cli
 ### Authorization Code Flow
 
 ```php
-$provider = new Stevenmaguire\OAuth2\Client\Provider\Naver([
+$provider = new SktT1Byungi\OAuth2\Client\Provider\Naver([
     'clientId'          => '{naver-client-id}',
     'clientSecret'      => '{naver-client-secret}',
     'redirectUri'       => 'https://example.com/callback-url'
