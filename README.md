@@ -1,5 +1,5 @@
 # Naver Provider for OAuth 2.0 Client
-This package provides Google OAuth 2.0 support for the PHP League's OAuth 2.0 Client.
+This package provides Naver OAuth 2.0 support for the PHP League's OAuth 2.0 Client.
 
 ## Usage
 
