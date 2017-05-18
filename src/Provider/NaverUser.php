@@ -21,6 +21,11 @@ class NaverUser implements ResourceOwnerInterface
         return $this->response['id'];
     }
 
+    public function getNickName()
+    {
+        return $this->response['nickname'];
+    }
+
     public function toArray()
     {
         return $this->response;
@@ -31,9 +36,14 @@ class NaverUser implements ResourceOwnerInterface
         return $this->response['email'];
     }
 
-    public function getAvatar()
+    public function getProfileImage()
     {
         return $this->response['profile_image'];
+    }
+
+    public function getAvatar()
+    {
+        return $this->getProfileImage();
     }
 
     public function getAge()
