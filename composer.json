@@ -1,0 +1,25 @@
+{
+  "name": "skt-t1-byungi/oauth2-naver",
+  "description": "Naver OAuth 2.0 Client Provider",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "skt-t1-byungi",
+      "email": "tiniwz@gmail.com"
+    }
+  ],
+  "keywords": [
+    "oauth",
+    "oauth2",
+    "naver"
+  ],
+  "require": {
+    "league/oauth2-client": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "SktT1Byungi\\OAuth2\\Client\\": "src/"
+    }
+  }
+}
